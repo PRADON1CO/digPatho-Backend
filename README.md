@@ -1,20 +1,20 @@
 # Backend de Fit Factory
 
-Este proyecto es el backend de la aplicación web sobre un GYM.
+Este proyecto es el backend de la aplicación web para un centro de pathologia.
 
 ## Descripción
 
-Este backend se encarga de manejar la lógica del servidor y la comunicación con la base de datos para la aplicación del GYM.
+Este backend se encarga de manejar la lógica del servidor y la comunicación con la base de datos para la aplicación.
 
 ## Alcance del proyecto
 
-El alcance de este proyecto se centra en realizar todos los pasos del CRUD y deberá contar con un login con diferentes opciones dependiendo el usuario que este logueado. Se considera que solo el usuario administrador podrá administrar las diferentes opciones de menú.
+El alcance de este proyecto se centra en realizar todos los pasos para gestionar el analisis de la IMG cargada y deberá contar con un login con diferentes opciones dependiendo el usuario que este logueado. Se considera que solo el usuario administrador podrá administrar las diferentes opciones de menú.
 
 ## Integración con proyecto de Frontend
 
 Este proyecto de Backend se integró a su proyecto Frontend correspondiente.
 
-#### Repositorio Frontend: [ProyectoFinalRC-Front](https://github.com/PRADON1CO/ProyectoFinalRC-Front)
+#### Repositorio Frontend: [DigPatho-Frontend](https://github.com/PRADON1CO/digPatho-Front)
 
 ## Tecnologías Utilizadas
 
@@ -31,10 +31,8 @@ Este proyecto de Backend se integró a su proyecto Frontend correspondiente.
 
 ## Endpoints API
 
-- /api/clases
-    * Endpoint para gestionar clases del GYM, incluyendo la visualización y creación (POST) de clases.
-- /api/clases/:id
-    * Endpoint para obtener información detallada de una clase específico y también para editar (PUT) o eliminar (DELETE) dicho clases.
+- /api/usuarios
+    * Endpoint para gestionar el login o acceso del usuario.
 
 ## Requisitos previos
 
@@ -45,11 +43,11 @@ Este proyecto de Backend se integró a su proyecto Frontend correspondiente.
 
 1. Clona este repositorio en tu máquina local a través de una terminal:
 
-  * git clone <[url-del-repositorio](https://github.com/PRADON1CO/ProyectoFinalBackend/tree/main)>
+  * git clone <[url-del-repositorio](https://github.com/PRADON1CO/digPatho-Backend)>
 
 2. Navega al directorio del proyecto:
 
-  * cd ProyectoFinalBackend
+  * cd digPatho-Backend
 
 3. Instala las dependencias del proyecto:
 
@@ -59,15 +57,10 @@ Este proyecto de Backend se integró a su proyecto Frontend correspondiente.
 
 * PORT = un puertodisponible en tu pc (Ej: 3000)
 * MONGODB_URI = url
+* SECRET_JWT= palabra clave
 
-## Autores
+## Autor
 
-_Lopez Esteban_
-- Github: https://github.com/elopezgit
-
-_Valdez Natasha Micaela_
-
-- Github: https://github.com/Valdez-Natasha
 
 _Prado Brian Nicolas_
 
@@ -77,6 +70,6 @@ _Prado Brian Nicolas_
 
 | Medio    | Link                                   |
 | -------- | -------------------------------------- |
-| Email    | fitfactory@gmail.com                   |
-| Twitter  | https://twitter.com/FitFactory         |
-| Linkedin | https://www.linkedin.com/in/FitFactory |
+| Email    | digPatho@gmail.com                     |
+| Twitter  | https://twitter.com/digPatho           |
+| Linkedin | https://www.linkedin.com/in/digPatho   |
