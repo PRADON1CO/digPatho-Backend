@@ -1,4 +1,4 @@
-# Backend de Fit Factory
+# Backend de Dig Patho
 
 Este proyecto es el backend de la aplicación web para un centro de pathologia.
 
